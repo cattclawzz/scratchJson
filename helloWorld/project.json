@@ -23,17 +23,18 @@
                 {
                     "assetId": "83a9787d4cb6f3b7632b4ddfebf74367",
                     "name": "pop",
-                    "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
                     "dataFormat": "wav",
+                    "format": "",
                     "rate": 44100,
-                    "sampleCount": 1032
+                    "sampleCount": 1032,
+                    "md5ext": "83a9787d4cb6f3b7632b4ddfebf74367.wav"
                 }
             ],
-            "layerOrder": 0,
             "volume": 100,
+            "layerOrder": 0,
             "tempo": 60,
-            "videoState": "off",
-            "videoTransparency": "off",
+            "videoState": "on",
+            "videoTransparency": 50,
             "textToSpeechLanguage": null
         }
     ],
