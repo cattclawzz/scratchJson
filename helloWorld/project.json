@@ -43,7 +43,43 @@
             "variables": {},
             "lists": {},
             "broadcasts": {},
-            "blocks": {},
+            "blocks": {
+                "D?/$]gw}[+qv}Ja%7A6g": {
+                    "opcode": "event_whenflagclicked",
+                    "next": "w@W}n=@UT#{cdgnzCAHP",
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": 10,
+                    "y": 20
+                },
+                "w@W}n=@UT#{cdgnzCAHP": {
+                    "opcode": "looks_sayforsecs",
+                    "next": null,
+                    "parent": "D?/$]gw}[+qv}Ja%7A6g",
+                    "inputs": {
+                        "MESSAGE": [
+                            1,
+                            [
+                                10,
+                                "Hello World!"
+                            ]
+                        ],
+                        "SECS": [
+                            1,
+                            [
+                                4,
+                                "2"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                }
+            },
             "comments": {},
             "currentCostume": 0,
             "costumes": [
@@ -66,12 +102,13 @@
                     "rotationCenterY": 53
                 }
             ],
-            "sounds": [],
+            "sounds": [
+            ],
             "volume": 100,
             "layerOrder": 1,
             "visible": true,
-            "x": 0,
-            "y": 0,
+            "x": 10,
+            "y": 10,
             "size": 100,
             "direction": 90,
             "draggable": false,
